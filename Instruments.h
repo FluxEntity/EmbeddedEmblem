@@ -210,7 +210,7 @@ const uint32_t songBattleTrebleMainDur[152] = {
 		eit/2, eit/2, eit/2, eit/2, qtr,				// Theme Sequence 3
 		eit/2, eit/2, eit/2, eit/2, qtr,
 		eit/2, eit/2, eit/2, eit/2, qtr,
-		eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2
+		eit/2, eit, eit/2, eit, eit/2, eit/2
 };
 
 const uint32_t songBattleBassMainNotes[84] = {
@@ -275,6 +275,14 @@ const uint32_t songBattleBassMainDur[84] = {
 		eitdot, eit, eit/2, eit
 };
 
+
+// Song - Cloud Control
+// Tracks - 4 total, 2 treble, 2 bass
+// Arranged by Maxwell Archibald
+
+const uint32_t songRuins[152] {
+		
+};
 
 /* song structs */
 const struct Song Main_Treble = { 152, (uint32_t *) songBattleTrebleMainNotes, (uint32_t *) songBattleTrebleMainDur };
