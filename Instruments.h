@@ -277,11 +277,90 @@ const uint32_t songBattleBassMainDur[84] = {
 
 
 // Song - Cloud Control
-// Tracks - 4 total, 2 treble, 2 bass
 // Arranged by Maxwell Archibald
 
-const uint32_t songRuins[152] {
+const uint32_t songRuinsNotes[246] {
+		C5, C5, D5, C5, F5, C5, G5, C5,			// Intro
+		G5, C5, C5, F5, C5, C5, G5, C5,
+		C5, C5, D5, C5, F5, C5, G5, C5,
+		F5, C5, C5, D5, C5, C5, D5, C5,
 		
+		C5, C5, D5, C5, F5, C5, G5, C5,
+		G5, C5, C5, F5, C5, C5, G5, C5,
+		C5, C5, D5, C5, F5, C5, G5, C5,
+		F5, C5, C5, D5, C5, C5, G#5, G5,
+		
+		C4, C4, D5, C4, F5, C4, G5, C4,			// Intro Repeat
+		G5, C4, C4, F5, C4, C4, G5, C4,
+		G#4, G#4, D5, G#4, F5, G#4, G5, G#4,
+		F5, A#4, A#4, D5, A#4, A#4, D5, A#4,
+		
+		C4, C4, D5, C4, F5, C4, G5, C4,	
+		G5, C4, C4, F5, C4, C4, G5, C4,
+		G#4, G#4, D5, G#4, F5, G#4, G5, G#4,
+		F5, A#4, A#4, D5, A#4, A#4, G#5, G5,
+		
+		C5, A#4, D5, C5, D5, D#5,				// Midsection
+		G5, G#5, G5, F5, D#5, D5, D#5,
+		G#5, G5, D5, A#4, D#5, A#4,
+		D5, C5, A#4, D5, F5, C5, D5, A#4,
+		
+		C5, G4, D5, A#4, C5, C6, D6,
+		D#6, A#5, G#5, A#5, G#5, G5,
+		D#5, A#4, G5, A#4, A#5, A#4, G5,
+		G#5, G5, G#5, A#5, G5, G#5, F5, G5,
+		
+		D#5, C5, D5, C5, D#5, C5, F5, C5,			// Midsection 2
+		G#5, C5, G5, C5, D#5, C5, D5, C5, 
+		G5, A#4, D#5, A#4, D5, G4, A#4, G4,
+		F5, F4, D5, F4, A#4, G4, D5, G4,
+		
+		C5, C5, D5, C5, D#5, C5, G5, C5,
+		C6, C5, A#5, C5, G#5, C5, D#5, C5, 
+		F5, A#4, G5, A#4, A#5, G4, F5, G4,
+		G5, F4, D5, F4, A#4, G4, D5
+};
+
+const uint32_t songRuinsDur[246] {
+		eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, 	// Intro
+		eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, 
+		eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, 
+		eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, 
+		
+		eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, 
+		eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, 
+		eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, 
+		eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, 
+		
+		eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, 	// Intro Repeat
+		eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, 
+		eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, 
+		eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, 
+		
+		eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, 
+		eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, 
+		eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, 
+		eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, 
+		
+		eit, eit/2, eit/2, eit, eit/2, eit/2, 				// Midsection
+		eit/2, eit/2, eit/2, eit/2, eit, eit/2, eit/2, 
+		eit, eit, eit/2, eit/2, eit/2, eit/2, 
+		eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, 
+		
+		eit/2, eit/2, eit/2, eit/2, eit, eit/2, eit/2, 
+		eit, eit, eit/2, eit/2, eit/2, eit/2, 
+		eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit,
+		eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, 
+		
+		eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, 	// Midsection 2
+		eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, 
+		eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, 
+		eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, 
+		
+		eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, 
+		eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, 
+		eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, 
+		eit/2, eit/2, eit/2, eit/2, eit/2, eit/2, eit
 };
 
 /* song structs */
